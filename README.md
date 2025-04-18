@@ -19,9 +19,7 @@ A simple Python tool to create **polyglot files** by combining a valid image or 
 ## 🚀 Installation
 
 ### 1. Clone the repository
-
 git clone https://github.com/Pranieth95/polyglot-generator.git
-cd polyglot-generator
 
 ### 2. Install dependencies (You need Python 3.x to run the script)
 
@@ -44,7 +42,7 @@ python polyglot_generator.py --input INPUT_FILE --shell PHP_SHELL_FILE --type FI
 --output: Output polyglot file name (e.g., polyglot.php)
 
 ### Example: JPEG + PHP
-python polyglot_generator.py --input input.jpg --shell shell.php --type jpeg --output polyglot.php
+python polyglot_generator.py --input image.jpg --shell exploit.php --type jpeg --output polyglot.php
 
 ## 🔍 How It Works
 1) The script reads the input image or document file.
@@ -54,3 +52,6 @@ python polyglot_generator.py --input input.jpg --shell shell.php --type jpeg --o
 3) Based on the specified type, the tool creates a polyglot file that behaves as both a valid file (e.g., image/pdf) and an executable PHP script.
 
 4) The output file can be used for testing file upload vulnerabilities in web security assessments.
+
+ ## ⚠️ Disclaimer
+This tool is for educational and ethical web security testing only. Do NOT use it on any systems without explicit permission.
